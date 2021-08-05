@@ -58,6 +58,12 @@ MODEL EVALUATION
 
 K-NEARST NEIGHBORS is the best fit model for the given dataset with 96.3 test accuracy
 
+RESULTS
+
+For the given data we analyzed and preprocessed dataset by using EDA techniques and removed outliners using Zscore 
+The models are evaluated, and the considered metric is accuracy score 'K-nearest neighbors' is the best fit model for the given dataset with '96.3'accuracy
+we removed outliners using both methods Zscore, IQR and applied to models and compared the accuracy’s we got better results for Zscore removed outliners
+we have used GridSerachCv for tuning the parameters and applied best params to the models which gave us better results
 
 
 
